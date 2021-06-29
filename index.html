@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Requisitando API Viacep</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Consulta de CEP</h1>
+    <div class="container background mt-4 border">
+        <h1 class="text-center text-uppercase">Consulta de CEP</h1>
         <form>
 
             <!--Importante usar os id identico ao da documentação da API viacep-->
-            <div class="form-group mb-4">
+            <div class="form-group mb-4 ">
                 <label for="cep">CEP</label>
                 <input type="text" class="form-control" placeholder="00000-000" maxlength="9" id="cep">
             </div>
@@ -29,7 +30,7 @@
                 <label for="localidade">Localidade</label>
                 <input type="text" class="form-control" placeholder="Cidade" id="localidade">
             </div>
-            <div class="form-group mb-4">
+            <div class="form-group mb-4 pb-4">
                 <label for="uf">UF</label>
                 <input type="text" class="form-control" placeholder="Estado" id="uf">
             </div>
