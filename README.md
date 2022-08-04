@@ -1,7 +1,6 @@
-# requisitando-dados-api-viacep-javascript
-## Projeto requisitando dados API viacep | Javascript | Bootstrap
+## Projeto requisitando dados API viacep
 
-Após o usuario digitar o cep o sistema extrai as informações da API e faz o preechimento dos outros campos automaticamente 
+Após o usuario digitar o cep o sistema consulta as informações da API e traz os dados preechendo os campos automaticamente 
 
 ![interface consulta de cep](https://github.com/ricardoaraujosantos/requisitando-api-cep-javascript/blob/main/img/foto-proj-cep.png)
 
